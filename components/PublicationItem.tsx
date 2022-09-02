@@ -15,6 +15,7 @@ const PublicationItem = ({publication, index}: Props): JSX.Element => {
             </p>
             <p className = "text-gray-500 flex justify-end text-sm bold">
                 <ExtLink href={publication.pdf}> [pdf] &nbsp;</ExtLink>
+                <ExtLink href={publication.code}> [code] &nbsp;</ExtLink>
                 <ExtLink href={publication.slides}> [slides] &nbsp;</ExtLink>
                 <ExtLink href={publication.video}> [video] </ExtLink>
             </p>

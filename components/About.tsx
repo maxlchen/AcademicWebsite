@@ -25,8 +25,10 @@ const About = (): JSX.Element => {
 						Research Interest: {personalInfo.about.interest}
 					</p>
 					<p className = "text-sm text-gray-400">
-						Under construction......<br/>
-						Re-architecting this site with some modern web technologies.
+						I received my Bachelors at Cornell University, where I worked with Prof. Lillian Lee and Dr. Jack Hessel, Prof. Rene Kizilcec, and Prof. Joe Guinness. <br/>
+						My PhD is partially supported by a GFSD fellowship. <br/>
+						Under construction<br/>
+						{/* Re-architecting this site with some modern web technologies. */}
 					</p>
 				</div>
 			</div>
